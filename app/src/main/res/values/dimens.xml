@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="time_size">90.0sp</dimen>
+    <dimen name="apm_size">30.0sp</dimen>
+    <dimen name="date_size">33.0sp</dimen>
+    <dimen name="week_size">70.0sp</dimen>
+    <dimen name="week_size_russia">60.0sp</dimen>
+</resources>

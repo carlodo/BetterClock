@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Transparency:"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:maxHeight="12dp"
+        android:minHeight="12dp"
+        android:progressDrawable="@drawable/smallvideo_seekbar"
+        android:thumb="@drawable/seekbar_button"
+        android:max="100"
+        android:progress="100"
+        android:thumbOffset="2dp"/>
+
+    <TextView
+        android:id="@+id/textValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+
+        android:text="100%"
+        android:textStyle="bold" />
+</LinearLayout>

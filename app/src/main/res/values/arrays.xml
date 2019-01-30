@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_clickAction">
+        <item>@string/label_do_nothing</item>
+        <item>@string/label_bring_me_here</item>
+        <item>@string/label_bring_me_to_alarm</item>
+        <item>@string/label_bring_me_to_calendar</item>
+    </string-array>
+    <string-array name="list_opacity">
+        <item>0%</item>
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="list_bg_color">
+        <item>@string/label_no_background</item>
+        <item>@string/label_black</item>
+    </string-array>
+
+    <string-array name="list_bg_color_values">
+        <item>No background</item>
+        <item>Black</item>
+    </string-array>
+
+    <string-array name="list_color">
+        <item>@string/label_black</item>
+        <item>@string/label_blue</item>
+        <item>@string/label_brown</item>
+        <item>@string/label_gray</item>
+        <item>@string/label_green</item>
+        <item>@string/label_orange</item>
+        <item>@string/label_hot_pink</item>
+        <item>@string/label_deep_pink</item>
+        <item>@string/label_purple</item>
+        <item>@string/label_red</item>
+        <item>@string/label_white</item>
+        <item>@string/label_yellow</item>
+    </string-array>
+
+    <string-array name="list_color_values">
+        <item>black</item>
+        <item>blue</item>
+        <item>brown</item>
+        <item>gray</item>
+        <item>green</item>
+        <item>orange</item>
+        <item>hotpink</item>
+        <item>deeppink</item>
+        <item>purple</item>
+        <item>red</item>
+        <item>white</item>
+        <item>yellow</item>
+    </string-array>
+
+    <string-array name="list_clock_size">
+        <item>1 x 4</item>
+        <item>1 x 2</item>
+    </string-array>
+    <string-array name="list_date">
+        <item>Tuesday, May 19</item>
+        <item>Tuesday, 19 May</item>
+        <item>05-19-2009</item>
+        <item>05/19/2009</item>
+        <item>19-05-2009</item>
+        <item>19/05/2009</item>
+        <item>2009-05-19</item>
+    </string-array>
+    <string-array name="list_date_value">
+        <item>EE, MM dd</item>
+        <item>EE, dd MM</item>
+        <item>MM-dd-yyyy</item>
+        <item>MM/dd/yyyy</item>
+        <item>dd-MM-yyyy</item>
+        <item>dd/MM/yyyy</item>
+        <item>yyyy-MM-dd</item>
+    </string-array>
+    <string-array name="list_lang">
+        <item>English</item>
+        <item>Español</item>
+        <item>Pусский</item>
+        <item>Portuguese</item>
+    </string-array>
+
+    <string-array name="list_lang_values">
+        <item>english</item>
+        <item>espanol</item>
+        <item>russo</item>
+        <item>porto</item>
+    </string-array>
+
+</resources>

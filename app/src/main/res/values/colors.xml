@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Day_textColor">#ffffff</color>
+    <color name="TextColour">#ffffff</color>
+    <color name="ShadowColour">#333333</color>
+
+    <drawable name="color_whitegrey">#e5e5e5</drawable>
+    <drawable name="color_trans">#00ffffff</drawable>
+
+
+    <color name="white">#ffffff</color>
+    <color name="main_yellow">#ffd943</color>
+    <color name="button_red">#FB0C74</color>
+
+    <color name="text_grey">#666666</color>
+    <color name="text_whitegrey">#bbbbbb</color>
+    <color name="text_blackgrey">#333333</color>
+    <color name="text_blue">#FB0C74</color>
+    <color name="line_grey">#121212</color>
+    <color name="text_green">#6bf442</color>
+    <color name="black">#000000</color>
+</resources>

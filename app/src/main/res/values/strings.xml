@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">A Better Clock Widget</string>
+    <string name="app_name_large">A Better Clock Widget (1 x 4)</string>
+    <string name="app_name_small">A Better Clock Widget (1 x 2)</string>
+    <string name="seekbar_name">Transparency:</string>
+    <string name="lang_name">Language:</string>
+    <string name="ok_name">Save</string>
+    <string name="set_name">App to open on widget tap:</string>
+    <string name="shadow">Text shadow</string>
+    <string name="format">Use 12-hour format</string>
+    <string name="AMPM">Use AM/PM format</string>
+    <string name="lang_english">English</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_russian">Pусский</string>
+    <string name="lang_portugese">Portuguese</string>
+    <string name="Sunday">Sunday</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday_short">Sun</string>
+    <string name="Monday_short">Mon</string>
+    <string name="Tuesday_short">Tue</string>
+    <string name="Wednesday_short">Wed</string>
+    <string name="Thursday_short">Thur</string>
+    <string name="Friday_short">Fri</string>
+    <string name="Saturday_short">Sat</string>
+    <string name="January">January</string>
+    <string name="February">February</string>
+    <string name="March">March</string>
+    <string name="April">April</string>
+    <string name="May">May</string>
+    <string name="June">June</string>
+    <string name="July">July</string>
+    <string name="August">August</string>
+    <string name="September">September</string>
+    <string name="October">October</string>
+    <string name="November">November</string>
+    <string name="December">December</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>
+    <string name="pref_category">Category</string>
+    <string name="rules">"1. Long click the home screen
+
+2. Select \"Widgets\"
+
+3. Select \"Digital Clock Widget\""</string>
+    <string name="ChangeTitle">Read me</string>
+    <string name="ChangeSummary">"-PLEASE RELAUNCH THE WIDGET AFTER UPDATING FROM MARKET
+
+- PLEASE EXCLUDE THE WIDGET FROM ANY TASK KILLER
+
+Thanks for choosing our product!"</string>
+
+    <string name="background_color">Background Color</string>
+    <string name="text_shadow">Text shadow</string>
+    <string name="date_color">Date Color</string>
+    <string name="time_color">Time Color</string>
+    <string name="week_color">Week Color</string>
+    <string name="dont_show_agian">Do not show again</string>
+
+    <string name="label_select_the_language">Select the language!</string>
+    <string name="label_please_pick">Please pick</string>
+    <string name="label_app_name" translatable="false">A Better Clock Widget</string>
+    <string name="label_no_background">No Background</string>
+    <string name="label_black">Black</string>
+    <string name="label_blue">Blue</string>
+    <string name="label_brown">Brown</string>
+    <string name="label_gray">Gray</string>
+    <string name="label_green">Green</string>
+    <string name="label_orange">Orange</string>
+    <string name="label_hot_pink">Hot Pink</string>
+    <string name="label_deep_pink">Deep Pink</string>
+    <string name="label_purple">Purple</string>
+    <string name="label_red">Red</string>
+    <string name="label_white">White</string>
+    <string name="label_yellow">Yellow</string>
+    <string name="label_do_nothing">Do Nothing</string>
+    <string name="label_bring_me_here">Bring me here</string>
+    <string name="label_bring_me_to_alarm">Bring me to alarm</string>
+    <string name="label_bring_me_to_calendar">Bring me to calendar</string>
+</resources>

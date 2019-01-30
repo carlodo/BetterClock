@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.victory.clokwidget">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".ClockApplication"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity
+            android:name=".ClockApp"
+            android:label="@string/label_app_name"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ApkListActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" />
+
+        <receiver
+            android:name=".ClockWidget"
+            android:label="@string/app_name_small">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/clock"
+                android:value="dllm" />
+        </receiver>
+        <receiver
+            android:name=".SensorRestarterBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:label="RestartServiceWhenStopped">
+            <intent-filter>
+                <action android:name="com.victory.clockwidget.RestartSensor" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".UpdateService" />
+        <service
+            android:name=".UpdateServiceSmall"/>
+
+    </application>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true" />
+    <supports-screens
+        android:anyDensity="true"
+        android:normalScreens="true" />
+    <supports-screens
+        android:anyDensity="true"
+        android:smallScreens="true" />
+
+
+</manifest>

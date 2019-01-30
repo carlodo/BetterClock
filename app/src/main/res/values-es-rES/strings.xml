@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">A Better Clock Widget</string>
+    <string name="app_name_large">A Better Clock Widget (1 x 4)</string>
+    <string name="app_name_small">A Better Clock Widget (1 x 2)</string>
+    <string name="seekbar_name">Transparencia:</string>
+    <string name="lang_name">Idioma:</string>
+    <string name="ok_name">Guardar</string>
+    <string name="set_name">Configurar que aplicación abrir al pulsar:</string>
+    <string name="shadow">Sombra en el texto</string>
+    <string name="format">Usar formato de 12 horas</string>
+    <string name="AMPM">Usar formato de AM/PM</string>
+    <string name="lang_english">English</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_russian">Pусский</string>
+    <string name="lang_portugese">Portuguese</string>
+    <string name="Sunday">domingo</string>
+    <string name="Monday">lunes</string>
+    <string name="Tuesday">martes</string>
+    <string name="Wednesday">miércoles</string>
+    <string name="Thursday">jueves</string>
+    <string name="Friday">viernes</string>
+    <string name="Saturday">sábado</string>
+    <string name="Sunday_short">Sun</string>
+    <string name="Monday_short">Mon</string>
+    <string name="Tuesday_short">Tue</string>
+    <string name="Wednesday_short">Wed</string>
+    <string name="Thursday_short">Thur</string>
+    <string name="Friday_short">Fri</string>
+    <string name="Saturday_short">Sat</string>
+    <string name="January">enero</string>
+    <string name="February">febrero</string>
+    <string name="March">marzo</string>
+    <string name="April">abril</string>
+    <string name="May">Mayo</string>
+    <string name="June">junio</string>
+    <string name="July">julio</string>
+    <string name="August">agosto</string>
+    <string name="September">septiembre</string>
+    <string name="October">octubre</string>
+    <string name="November">noviembre</string>
+    <string name="December">diciembre</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>
+    <string name="pref_category">Category</string>
+    <string name="rules">"1. Long click the home screen
+
+2. Select \"Widgets\"
+
+3. Select \"Digital Clock Widget\""</string>
+    <string name="ChangeTitle">Read me</string>
+    <string name="ChangeSummary">"-PLEASE RELAUNCH THE WIDGET AFTER UPDATING FROM MARKET
+
+- PLEASE EXCLUDE THE WIDGET FROM ANY TASK KILLER
+
+Thanks for choosing our product!"</string>
+
+    <string name="background_color">Color de fondo</string>
+    <string name="text_shadow">Sombra de texto</string>
+    <string name="date_color">Color de fecha</string>
+    <string name="time_color">Color del tiempo</string>
+    <string name="week_color">Color de la semana</string>
+    <string name="dont_show_agian">No mostrar de nuevo</string>
+    <string name="label_blue">Azul</string>
+    <string name="label_deep_pink">Rosa profundo</string>
+    <string name="label_brown">Marrón</string>
+    <string name="label_bring_me_to_calendar">"Traeme al calendario "</string>
+    <string name="label_bring_me_to_alarm">"Llevame a la alarma "</string>
+    <string name="label_black">Negro</string>
+    <string name="label_bring_me_here">"Tráeme aquí "</string>
+    <string name="label_do_nothing">Hacer nada</string>
+    <string name="label_gray">Gris</string>
+    <string name="label_green">Verde</string>
+    <string name="label_hot_pink">Rosa caliente</string>
+    <string name="label_no_background">"Sin fondo "</string>
+    <string name="label_orange">Naranja</string>
+    <string name="label_please_pick">Por favor escoge</string>
+    <string name="label_purple">Púrpura</string>
+    <string name="label_red">Rojo</string>
+    <string name="label_select_the_language">"Seleccione el idioma! "</string>
+    <string name="label_white">Blanco</string>
+    <string name="label_yellow">Amarillo</string>
+</resources>

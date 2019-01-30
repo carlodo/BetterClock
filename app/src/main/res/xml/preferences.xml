@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="Setting">
+        <com.victory.clokwidget.preference.SeekBarPreference
+            android:defaultValue="100"
+            android:key="seek_bar"
+            android:title="@string/seekbar_name" />
+        <ListPreference android:entries="@array/list_bg_color" android:title="@string/background_color" android:key="color_bg" android:defaultValue="No background" android:dialogTitle="@string/label_please_pick" android:entryValues="@array/list_bg_color_values" />
+        <CheckBoxPreference android:title="@string/text_shadow" android:key="text_shadow" android:defaultValue="false" />
+        <ListPreference android:entries="@array/list_color" android:title="@string/time_color" android:key="color_time"  android:defaultValue="white" android:dialogTitle="@string/label_please_pick" android:entryValues="@array/list_color_values" />
+        <ListPreference android:entries="@array/list_color" android:title="@string/week_color" android:key="color_week"  android:defaultValue="white" android:dialogTitle="@string/label_please_pick" android:entryValues="@array/list_color_values" />
+        <ListPreference android:entries="@array/list_color" android:title="@string/date_color" android:key="color_date"  android:defaultValue="white" android:dialogTitle="@string/label_please_pick" android:entryValues="@array/list_color_values" />
+
+
+        <CheckBoxPreference android:title="@string/format" android:key="12hour"  android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/AMPM" android:key="ampm" android:defaultValue="false" android:dependency="12hour"/>
+        <ListPreference android:entries="@array/list_lang" android:title="@string/lang_name" android:key="language"  android:defaultValue="english" android:dialogTitle="@string/label_select_the_language" android:entryValues="@array/list_lang_values" />
+        <Preference android:key="app_chooser" android:title="@string/set_name" android:summary="None" android:defaultValue="None">
+            <intent android:action="android.intent.action.VIEW" android:targetPackage="com.victory.clokwidget" android:targetClass="com.victory.clokwidget.ApkListActivity" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

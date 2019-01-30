@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Лучший виджет часов</string>
+    <string name="app_name_large">A Better Clock Widget (1 x 4)</string>
+    <string name="app_name_small">A Better Clock Widget (1 x 2)</string>
+    <string name="seekbar_name">прозрачность:</string>
+    <string name="ok_name">экономить</string>
+    <string name="lang_name">язык</string>
+    <string name="set_name">Задайте, какое приложение следует открыть при нажатии:</string>
+    <string name="shadow">Тень в тексте</string>
+    <string name="format">Использовать 12-часовой формат</string>
+    <string name="AMPM">Использовать формат AM / PM</string>
+    <string name="lang_english">English</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_russian">Pусский</string>
+    <string name="lang_portugese">Portuguese</string>
+    <string name="Sunday">Sunday</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday_short">Sun</string>
+    <string name="Monday_short">Mon</string>
+    <string name="Tuesday_short">Tue</string>
+    <string name="Wednesday_short">Wed</string>
+    <string name="Thursday_short">Thur</string>
+    <string name="Friday_short">Fri</string>
+    <string name="Saturday_short">Sat</string>
+    <string name="January">January</string>
+    <string name="February">February</string>
+    <string name="March">March</string>
+    <string name="April">April</string>
+    <string name="May">May</string>
+    <string name="June">June</string>
+    <string name="July">July</string>
+    <string name="August">August</string>
+    <string name="September">September</string>
+    <string name="October">October</string>
+    <string name="November">November</string>
+    <string name="December">December</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>
+    <string name="pref_category">Category</string>
+    <string name="rules">"1. Long click the home screen
+
+2. Select \"Widgets\"
+
+3. Select \"Digital Clock Widget\""</string>
+    <string name="ChangeTitle">Read me</string>
+    <string name="ChangeSummary">"-PLEASE RELAUNCH THE WIDGET AFTER UPDATING FROM MARKET
+
+- PLEASE EXCLUDE THE WIDGET FROM ANY TASK KILLER
+
+Thanks for choosing our product!"</string>
+
+    <string name="background_color">Фоновый цвет</string>
+    <string name="text_shadow">Тень текста</string>
+    <string name="date_color">Цвет даты</string>
+    <string name="time_color">Цвет времени</string>
+    <string name="week_color">Цвет недели</string>
+    <string name="dont_show_agian">Не показывай снова</string>
+    <string name="label_black">черный</string>
+    <string name="label_blue">синий</string>
+    <string name="label_bring_me_here">"Приведи меня сюда "</string>
+    <string name="label_bring_me_to_alarm">"Приведи меня в состояние тревоги "</string>
+    <string name="label_bring_me_to_calendar">"Приведи меня в календарь "</string>
+    <string name="label_brown">коричневый</string>
+    <string name="label_deep_pink">Темно-розовый</string>
+    <string name="label_do_nothing">Ничего не делать</string>
+    <string name="label_gray">Серый</string>
+    <string name="label_green">"зеленый "</string>
+    <string name="label_hot_pink">Ярко-розовый</string>
+    <string name="label_no_background">"Без фона "</string>
+    <string name="label_orange">оранжевый</string>
+    <string name="label_please_pick">Пожалуйста, выберите</string>
+    <string name="label_purple">Пурпурный</string>
+    <string name="label_red">"красный "</string>
+    <string name="label_select_the_language">"Выберите язык! "</string>
+    <string name="label_white">"белый "</string>
+    <string name="label_yellow">желтый</string>
+</resources>

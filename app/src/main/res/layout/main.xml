@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/WidgetBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3.0dip"
+        android:text=""
+        android:singleLine="true"
+        android:includeFontPadding="false"
+        android:layout_centerHorizontal="true"
+        style="@style/Text.Time" />
+    <TextView
+        android:id="@+id/apm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6.5dip"
+        android:text=""
+        android:singleLine="true"
+        android:includeFontPadding="false"
+        android:layout_toRightOf="@id/time"
+        android:layout_alignBottom="@id/time"
+        style="@style/Text.APM" />
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3.0dip"
+        android:text="Loading..."
+        android:includeFontPadding="false"
+        android:layout_below="@id/time"
+        android:layout_centerHorizontal="true"
+        style="@style/Text.Date" />
+</RelativeLayout>
